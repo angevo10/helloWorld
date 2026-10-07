@@ -14,4 +14,5 @@ h2 {
 table, th, td {
     border-style: solid;
     border-color: #B80C09;
+    border-collapse: collapse;
 }
