@@ -1,5 +1,17 @@
+/* Style Paragraphs w/ Two Rules) */
 p {
-    color: #B80C09;
     font-size: 14px;
     font-family: Georgia, serif;
+}
+
+/* Style Level Two Headers w/ Two Rules) */
+h2 {
+    color: #B80C09;
+    font-family: Georgia, serif;
+}
+
+/* Style Table w/ Border and Color */
+table {
+    border-style: solid;
+    border-color: #B80C09;
 }
