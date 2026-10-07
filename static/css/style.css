@@ -16,3 +16,8 @@ table, th, td {
     border-color: #B80C09;
     border-collapse: collapse;
 }
+
+/* ID for Third Paragraph */
+#special-third {
+    color: #6B2B06;
+}
