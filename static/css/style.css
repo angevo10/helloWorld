@@ -20,4 +20,6 @@ table, th, td {
 /* ID for Third Paragraph */
 #special-third {
     color: #6B2B06;
+    font-weight: bold;
+    font-style: italic;
 }
