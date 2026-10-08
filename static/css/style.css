@@ -23,3 +23,7 @@ table, th, td {
     font-weight: bold;
     font-style: italic;
 }
+
+.darkred {
+    color: #6B2B06;
+}
