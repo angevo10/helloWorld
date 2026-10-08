@@ -17,13 +17,20 @@ table, th, td {
     border-collapse: collapse;
 }
 
-/* ID for Third Paragraph */
+/* ID Attribute for Third Paragraph */
 #special-third {
     color: #6B2B06;
     font-weight: bold;
     font-style: italic;
 }
 
+/* Class Attribute */
 .red {
     color: #B80C09;
+}
+
+/* Logo */
+img.logo {
+    width: 401px;
+    height: 108px;
 }
