@@ -19,5 +19,14 @@ def about():
 def about_css():
     return render_template('about-css.html')
 
+# Module 8: Flask Fundamental
+@app.route('/favorite-course')
+def about_css():
+    return render_template('favorite-course.html')
+
+@app.route('/contact')
+def about_css():
+    return render_template('contact.html')
+
 if __name__ == '__main__':
     app.run()
