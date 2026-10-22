@@ -5,35 +5,39 @@
 
 {% block page_content %}
 {% if form_submitted %}
-    <h2>Thank you for filling out my form!</h2>
-    <p>First name: {{ request.form.get('first_name') }}</p>
-    <p>Last name: {{ request.form.get('last_name') }}</p>
-    <p>Email address: {{ request.form.get('email') }}</p>
+<div class="pink-box">
+    <h2>Thank you! \(>w<)/</h2>
+    <h6>Here's the information that you have submitted</h6>
+    <p><strong>First name:</strong> {{ request.form.get('first_name') }}</p>
+    <p><strong>Last name:</strong> {{ request.form.get('last_name') }}</p>
+    <p><strong>Email address:</strong> {{ request.form.get('email') }}</p>
+    <p><strong>Message:</strong> {{ request.form.get('message') }}</p>
+</div>
 
 {% else %}
 <form action="{{ url_for('contact') }}" method="post">
     <!-- First Name -->
     <div class="form-group">
         <label for="first_name">First Name</label>
-        <textarea class="form-control" id="first_name" rows="1" name="first_name"></textarea>
+        <textarea class="form-control" id="first_name" rows="1" name="first_name" required></textarea>
     </div>
     <!-- Last Name -->
     <div class="form-group">
         <label for="last_name">Last Name</label>
-        <textarea class="form-control" id="last_name" rows="1" name="last_name"></textarea>
+        <textarea class="form-control" id="last_name" rows="1" name="last_name" required></textarea>
     </div>
     <!-- Email Address -->
     <div class="form-group">
         <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email" required>
     </div>
     <!-- Message -->
     <div class="form-group">
         <label for="message">Message</label>
-        <textarea class="form-control" id="message" rows="4" name="message"></textarea>
+        <textarea class="form-control" id="message" rows="4" name="message" required></textarea>
   </div>
   <!-- "Submit" Button -->
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn pink-button">Submit</button>
 </form>
 {% endif %}
 {% endblock %}

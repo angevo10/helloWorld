@@ -1,13 +1,11 @@
-/* Style Paragraphs w/ Two Rules) */
+/* Style Paragraphs */
 p {
     font-size: 14px;
-    font-family: Georgia, serif;
 }
 
-/* Style Level Two Headers w/ Two Rules) */
+/* Style Level Two Headers */
 h2 {
     color: #B80C09;
-    font-family: Georgia, serif;
 }
 
 /* Style Table w/ Border and Color */
@@ -33,4 +31,26 @@ table, th, td {
 img.logo {
     width: 401px;
     height: 108px;
+}
+
+/* Module 7 */
+.pink-box {
+    background-color: #FFE4E1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pink-button {
+    background-color: pink;
+    border-color: pink;
+    color: black;
+}
+
+.pink-button:hover {
+    background-color: lightpink;
+    border-color: lightpink;
+}
+
+.pink-navbar {
+    background-color: pink;
 }
