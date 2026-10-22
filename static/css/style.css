@@ -1,11 +1,13 @@
 /* Style Paragraphs */
 p {
     font-size: 14px;
+    font-family: Gerogia; /* delete  later */
 }
 
 /* Style Level Two Headers */
 h2 {
     color: #B80C09;
+    font-family: Gerogia; /* delete  later */
 }
 
 /* Style Table w/ Border and Color */
