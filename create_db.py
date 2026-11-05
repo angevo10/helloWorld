@@ -40,7 +40,7 @@ with app.app_context():
         {'first_name': 'Test', 'last_name': 'Student', 'email':'student@umd.edu',
             'major_id': 3, 'birth_date': dt.strptime('2007-08-01', '%Y-%m-%d'), 'is_honors': 1},
         {'first_name': 'Angela', 'last_name': 'Vo', 'email':'angevo@umd.edu',
-            'major_id': 5, 'birth_date': dt.strptime('2005-5-30', '%Y-%m-%d'), 'is_honors': 1}
+            'major_id': 3, 'birth_date': dt.strptime('2005-5-30', '%Y-%m-%d'), 'is_honors': 1}
     ]
 
     for each_student in students:
